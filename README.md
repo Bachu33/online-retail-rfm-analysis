@@ -1,6 +1,8 @@
 # 🛒 Online Retail RFM Analysis
 
-A customer segmentation project using **Recency-Frequency-Monetary (RFM)** analysis on the UCI Online Retail dataset. Customers are scored across three behavioural dimensions and grouped into actionable business segments.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bachu33/online-retail-rfm-analysis/blob/main/rfm.ipynb)
+
+A customer segmentation project using **Recency-Frequency-Monetary (RFM)** analysis on the UCI Online Retail dataset. Built in Google Colab, customers are scored across three behavioural dimensions and grouped into actionable business segments.
 
 ---
 
@@ -80,21 +82,30 @@ The notebook produces the following charts:
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Option 1 — Run in Google Colab (Recommended)
+Click the badge at the top of this README, or go directly to:
+
+**[Open in Google Colab](https://colab.research.google.com/github/Bachu33/online-retail-rfm-analysis/blob/main/rfm.ipynb)**
+
+1. Click **Runtime → Run all** (or press `Ctrl+F9`)
+2. The first cell will automatically download and extract the dataset from the UCI repository — no setup needed
+
+> **Note:** The Colab session needs to stay active during the dataset download (~23MB). If the session times out, simply reconnect and re-run.
+
+### Option 2 — Run Locally
+1. Clone this repository:
+```bash
+git clone https://github.com/Bachu33/online-retail-rfm-analysis.git
+cd online-retail-rfm-analysis
+```
+2. Install dependencies:
 ```bash
 pip install pandas numpy matplotlib seaborn openpyxl
 ```
-
-### Running the Notebook
-1. Clone this repository
-2. Open `rfm.ipynb` in Jupyter Notebook or JupyterLab
-3. Run all cells — the first cell will automatically download and extract the dataset from the UCI repository
-
+3. Launch the notebook:
 ```bash
 jupyter notebook rfm.ipynb
 ```
-
-> **Note:** The dataset download in Cell 1 requires an internet connection. The file `Online Retail.xlsx` (~23MB) will be saved to your working directory.
 
 ---
 
