@@ -130,5 +130,4 @@ jupyter notebook rfm.ipynb
 
 ## 📚 References
 
-- Daqing Chen, Sai Liang Sain, and Kun Guo (2012). *Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining.* Journal of Database Marketing and Customer Strategy Management.
 - [UCI Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail)
